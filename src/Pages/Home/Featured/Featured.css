@@ -1,0 +1,20 @@
+.featured-item {
+    position: relative; /* Make sure the container is a positioned element */
+}
+
+.featured-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Place the overlay on top of the background image */
+}
+
+.featured-item {
+    background-image: url(../../../assets/home/featured.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+}

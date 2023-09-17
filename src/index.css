@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+h4 {
+  font-family: Cinzel;
+}
+
+/* slider css overwrite */
+.carousel-container {
+  position: relative;
+}
+
+.carousel .thumbs-wrapper {
+  position: absolute;
+  bottom: -90px;
+  /* Adjust the value as needed to control the vertical position */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Custom styles for the tab buttons */
+.tab-button {
+  padding: 6px 20px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+/* Custom styles for the active tab button */
+.active-tab {
+  background-color: #2d3748 !important;
+  /* Use !important to override default styles */
+  color: white !important;
+  border: none !important;
+  border-radius: 2px;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
+}
+
+.drawer-side a.active {
+  color: white!important;
+  background-color: #2d3748!important;
+  border-radius: 2px;
+}
+.drawer-side a{
+  background-color: transparent!important;
+  color: black!important;
+}
+.btn-primary{
+  background-color: white!important;
+  z-index: 999;
+}
