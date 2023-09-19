@@ -4,7 +4,7 @@ import './Featured.css'
 
 const Featured = () => {
     return (
-        <div className='relative'>
+        <div className='relative md:block hidden'>
             <div className='relative'>
                 <img className='bg-cover bg-no-repeat max-h-fit' src={img} alt="" />
                 <div className='bg-black opacity-60 absolute top-0 left-0 w-full h-full'></div>

@@ -31,25 +31,25 @@ const Category = () => {
                 modules={[Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide>
-                    <img className='relative' src={img1} alt="" />
-                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 text-lg font-semibold text-white rounded-sm'>SALADS</h4>
+                <SwiperSlide className='overflow-x-hidden'>
+                    <img className='relative ' src={img1} alt="" />
+                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 text-sm md:text-lg font-semibold text-white rounded-sm'>SALADS</h4>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img className='relative' src={img2} alt="" />
-                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 text-lg font-semibold text-white rounded-sm'>SOUPS</h4>
+                <SwiperSlide className='overflow-x-hidden'>
+                    <img className='relative ' src={img2} alt="" />
+                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 md:text-lg text-sm font-semibold text-white rounded-sm'>SOUPS</h4>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img className='relative' src={img3} alt="" />
-                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 text-lg font-semibold text-white rounded-sm'>PIZZAS</h4>
+                <SwiperSlide className='overflow-x-hidden'>
+                    <img className='relative ' src={img3} alt="" />
+                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 md:text-lg text-sm font-semibold text-white rounded-sm'>PIZZAS</h4>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img className='relative' src={img4} alt="" />
-                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 text-lg font-semibold text-white rounded-sm'>DESSERTS</h4>
+                <SwiperSlide className='overflow-x-hidden'>
+                    <img className='relative ' src={img4} alt="" />
+                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 md:text-lg text-sm font-semibold text-white rounded-sm'>DESSERTS</h4>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img className='relative' src={img5} alt="" />
-                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 text-lg font-semibold text-white rounded-sm'>DRINKS</h4>
+                <SwiperSlide className='overflow-x-hidden'>
+                    <img className='relative ' src={img5} alt="" />
+                    <h4 className='absolute left-1/2 transform -translate-x-1/2 bottom-4 bg-yellow-500 px-10 py-2 md:text-lg text-sm font-semibold text-white rounded-sm'>DRINKS</h4>
                 </SwiperSlide>
             </Swiper>
 

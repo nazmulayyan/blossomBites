@@ -2,15 +2,15 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import img1 from '../../../assets/home/01.jpg'
 import img2 from '../../../assets/home/02.jpg'
-import img3 from '../../../assets/home/03.png'
+import img3 from '../../../assets/home/03.jpg'
 import img4 from '../../../assets/home/04.jpg'
-import img5 from '../../../assets/home/05.png'
-import img6 from '../../../assets/home/06.png'
+import img5 from '../../../assets/home/05.jpg'
+import img6 from '../../../assets/home/06.jpg'
 
 const Banner = () => {
     return (
-        <div className="carousel-container mb-20">
-            <Carousel autoPlay={true} interval={3000} infiniteLoop={true}>
+        <div className="carousel-container">
+            <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showThumbs={false}>
                 <div>
                     <img src={img1} />
                 </div>
